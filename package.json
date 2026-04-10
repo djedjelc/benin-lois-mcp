@@ -1,0 +1,37 @@
+{
+  "name": "@djedjedigital/benin-lois-mcp",
+  "version": "1.0.1",
+  "description": "MCP server providing access to the official laws of the Republic of Benin, directly from verified government sources.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "benin-lois-mcp": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "benin",
+    "lois",
+    "droit",
+    "juridique",
+    "afrique",
+    "legal"
+  ],
+  "author": "djedjedigital",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "cheerio": "^1.2.0",
+    "node-fetch": "^3.3.2"
+  }
+}
